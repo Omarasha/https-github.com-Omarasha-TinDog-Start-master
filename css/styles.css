@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+#title{
+  text-align: left;
+  background-color: #8BBCCC;
+  color: white;
+}
+
+
+
+/* Containers */
+
+ .container-fluid{                    /* container-fluid  برتب التنسيق مع التفاعل مع الشاشة */
+   padding: 2% 15% 3%;                                               /* داخل html هاض */
+}
+
+
+
+/* nav Bar */
+
+.navbar{
+  margin-bottom: 100px;
+  padding-left: 0;
+}
+.navbar-brand{
+  font-size: 3.5rem;
+}
+.collapse-navbar-collapse{
+  position: absolute;
+  right: 0;
+  font-size: 1.1rem;
+}
+
+
+
+/* Title */
+
+.p-title{
+   font-weight: bold;
+}
+.Download-botton{
+  margin:5% 3% auto auto;
+}
+
+.img-fphone6{
+  position: absolute;
+  width: 60%;                     /* تصغير حجم الصورة  */
+  transform: rotate(20deg);      /*تدوير الصورة */
+}
+
+
+
+/* Features */
+
+.Features-text{
+  font-weight: bold;
+  font-size: 25px;
+}
+#features{
+  padding-top: 6%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.features-img{
+  color: #06283D;
+  padding: 0 60px 70px 0;
+}
+.features-img:hover{
+  color: #8BBCCC;
+}
+.img-icons{
+  width: 110px;
+}
+
+.p-features{
+  color: #7895B2;
+}
+
+
+
+/*Testimonials */
+
+.testimonial-text{
+  font-weight: bold;
+}
+#testimonials{
+  background-color: #F96666;
+  color:white;
+}
+.img-dog-girl{
+  width: 8%;
+  border-radius: 100%;          /*  (جعل الصورة دائرية ) */
+  margin-right: 2%;
+}
+ .carousel-inner{        /*   هون عملت هيك عشان الزرين يمين وشمال يكونو بعدين عن النص  */
+  padding: 8% 15% ;
+}
+
+
+
+/* Press */
+
+#press{
+  background-color: #F96666;
+}
+.img-press{
+  width: 13%;
+  margin: 0 1% 7%;
+}
+
+
+
+/* Pricing  */
+
+.pricing-text{
+  font-weight: bold;
+  font-size: 50px;
+}
+.p-pricing{
+  padding: 8% 0 4% 0;
+}
+
+
+
+/* <!-- Call to Action  */
+
+#cta{
+  color: white;
+  background-color: #8BBCCC;
+  padding: 8%;
+}
+.cat-text{
+  font-size: 40px;
+  width:50%;
+  margin: auto;
+  padding-bottom: 40px ;
+  font-weight: bold;
+}
+.cta-Download{
+  margin: auto 10px;
+}
+
+
+
+/*  Footer  */
+#footer{
+  margin: 30px;
+}
+.icon-footer{
+  margin: auto 5px;
+}
+
+
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+    .img-fphone6{
+      position: static;                   /*  هون منحك اذا تحقق الشرط غيرلي مكانو ب position:  */
+      transform: rotate(0);                   /*  ورجعلي اياه من دون تدوير   */
+    }
+  }
